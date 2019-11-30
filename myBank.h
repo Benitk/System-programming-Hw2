@@ -1,6 +1,7 @@
 #ifndef __MYBANK_H__
 #define __MYBANK_H__
-
+#define Length 50
+extern double Accounts[2][Length];
 void open_account(double);
 void balance(int);
 void deposit(int, double);
